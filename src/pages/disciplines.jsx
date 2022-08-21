@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { disciplines } from './assets/disciplines'
+import { disciplines } from '../assets/disciplines'
 
 
 
-function App() {
+const disciplinesPage = ()=> {
   const [inputText, setInputText] = useState("")
   const [filterDiscipline, setFilterDiscipline] = useState (disciplines)
 
@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="">
       <h1>Disciplines</h1>
 
       <input
@@ -41,4 +41,4 @@ function App() {
   )
 }
 
-export default App
+export default disciplinesPage
