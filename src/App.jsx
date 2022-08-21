@@ -1,42 +1,26 @@
-import { useState } from 'react'
-import { disciplines } from './assets/disciplines'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
+// pages
+import Home from './pages/home'
+import Disciplines from './pages/disciplines'
+import Topics from './pages/topics'
+import Tracks from './pages/tracks'
 
 
 function App() {
-  const [inputText, setInputText] = useState("")
-  const [filterDiscipline, setFilterDiscipline] = useState (disciplines)
-
-  function inputHandler (e) {
-    // setInputText(lowerCase)
-    setInputText(e.target.value)
-    let lowerCase = e.target.value.toLowerCase()
-    
-    let filteredData = disciplines.filter(el =>{
-      if (lowerCase === "") {
-        return el
-      } else {
-        return el.toLowerCase().includes(lowerCase)
-      }
-    })
-    setFilterDiscipline(filteredData)
-  }
-
   return (
     <div className="App">
-      <h1>Disciplines</h1>
-
-      <input
-        type="text"
-        value={ inputText }
-        onChange = {inputHandler}/>
-
-      <ul>
-        {filterDiscipline.map((discipline, index) =>
-          <li key={ index }>{discipline}</li>
-        )}
-      </ul>
-
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/disciplines" element={<Disciplines />} />
+          <Route path="/topics" element={<Topics />} />
+          <Route path="/tracks" element={<Tracks />} />
+          {/* <Route path="/products/:id/*" element={<ProductDetails />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/redirect" element={<Navigate to="/about" />} /> */}
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

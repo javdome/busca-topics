@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import { disciplines } from '../assets/data'
+import { tracks } from '../assets/data'
 
-const disciplinesPage = ()=> {
+const tracksPage = ()=> {
   const [inputText, setInputText] = useState("")
-  const [filterData, setFilterData] = useState (disciplines)
+  const [filterData, setFilterData] = useState (tracks)
 
   function inputHandler (e) {
     // setInputText(lowerCase)
     setInputText(e.target.value)
     let lowerCase = e.target.value.toLowerCase()
     
-    let filteredData = disciplines.filter(el =>{
+    let filteredData = tracks.filter(el =>{
       if (lowerCase === "") {
         return el
       } else {
@@ -22,7 +22,7 @@ const disciplinesPage = ()=> {
 
   return (
     <div className="container">
-      <h1>Disciplines</h1>
+      <h1>Tracks</h1>
 
       <input
         type="text"
@@ -39,4 +39,4 @@ const disciplinesPage = ()=> {
   )
 }
 
-export default disciplinesPage
+export default tracksPage
