@@ -10,7 +10,7 @@ import Tracks from './pages/tracks'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/busca-topics">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/disciplines" element={<Disciplines />} />
