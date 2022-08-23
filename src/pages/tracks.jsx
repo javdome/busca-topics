@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { tracks } from '../assets/data'
 
@@ -6,18 +7,9 @@ const tracksPage = ()=> {
   const [filterData, setFilterData] = useState (tracks)
 
   function inputHandler (e) {
-    // setInputText(lowerCase)
     setInputText(e.target.value)
     let lowerCase = e.target.value.toLowerCase()
-    
-    let filteredData = tracks.filter(el =>{
-      if (lowerCase === "") {
-        return el
-      } else {
-        return el.toLowerCase().includes(lowerCase)
-      }
-    })
-    setFilterData(filteredData)
+    setFilterData (tracks.filter(el => el.toLowerCase().includes(lowerCase)))
   }
 
   return (
@@ -35,6 +27,8 @@ const tracksPage = ()=> {
         )}
       </ul>
 
+      <Link id="back-button" to="/">Menu</Link>  
+      
     </div>
   )
 }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { topics } from '../assets/data'
 
@@ -6,18 +7,9 @@ const topicsPage = ()=> {
   const [filterData, setFilterData] = useState (topics)
 
   function inputHandler (e) {
-    // setInputText(lowerCase)
     setInputText(e.target.value)
     let lowerCase = e.target.value.toLowerCase()
-    
-    let filteredData = topics.filter(el =>{
-      if (lowerCase === "") {
-        return el
-      } else {
-        return el.toLowerCase().includes(lowerCase)
-      }
-    })
-    setFilterData(filteredData)
+    setFilterData (topics.filter(el => el.toLowerCase().includes(lowerCase)))
   }
 
   return (
@@ -34,6 +26,8 @@ const topicsPage = ()=> {
           <li key={ index }>{data}</li>
         )}
       </ul>
+
+      <Link id="back-button" to="/">Menu</Link>
 
     </div>
   )
