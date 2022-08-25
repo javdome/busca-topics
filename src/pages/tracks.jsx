@@ -18,6 +18,7 @@ const tracksPage = ()=> {
 
       <input
         type="text"
+        placeholder="Texto a buscar..."
         value={ inputText }
         onChange = {inputHandler}/>
 
