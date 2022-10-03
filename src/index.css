@@ -80,3 +80,28 @@
     width: 75px;
   }
 }
+
+
+button {
+  padding: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  color:#fff;
+  background-color: #202124;
+}
+
+.dark-mode .menu a {
+  border-color:#fff;
+  color:#fff;
+}
+
+.dark-mode .menu a:hover {
+  background-color: rgb(71, 71, 71);
+}
+
+.dark-mode .listado li:nth-child(2n-1) {
+  background-color: #323233;
+}
