@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 // import { topics } from '../assets/data'
-import { topics } from '../../ARCHIVOS/INTED/Topics_Inted'
+import { topics } from '../../ARCHIVOS/INTED/Topics_Disciplines_Inted'
 
 const topicsPage = ()=> {
   const [inputText, setInputText] = useState("")
@@ -36,7 +36,7 @@ const topicsPage = ()=> {
         {filterData.map((topic, index) =>
           <div className='bloque'>
             {topic.data && <p key={ index }>{topic.title}</p>}
-            <ul className="listado">
+            <ul className="">
             {topic.data.map((el, ind2) =>
               <li key={ index + '_' + ind2 }>{el}</li>
             )}
