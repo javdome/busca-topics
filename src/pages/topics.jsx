@@ -1,15 +1,25 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import { topics } from '../assets/data'
+// import { topics } from '../assets/data'
+import { topics } from '../../ARCHIVOS/INTED/Topics_Inted'
 
 const topicsPage = ()=> {
   const [inputText, setInputText] = useState("")
-  const [filterData, setFilterData] = useState (topics)
+  const [filterData, setFilterData] = useState(topics)
 
   function inputHandler (e) {
     setInputText(e.target.value)
     let lowerCase = e.target.value.toLowerCase()
-    setFilterData (topics.filter(el => el.toLowerCase().includes(lowerCase)))
+    // setFilterData (topics.filter(el => el.toLowerCase().includes(lowerCase)))
+
+    const newArray = topics.map( function (topic) { 
+     return {
+        title: topic.title, 
+        data: topic.data.filter(el => el.toLowerCase().includes(lowerCase))
+      }
+    })
+
+    setFilterData (newArray)
   }
 
   return (
@@ -22,11 +32,18 @@ const topicsPage = ()=> {
         value={ inputText }
         onChange = {inputHandler}/>
 
-      <ul className="listado">
-        {filterData.map((data, index) =>
-          <li key={ index }>{data}</li>
+      
+        {filterData.map((topic, index) =>
+          <div className='bloque'>
+            {topic.data && <p key={ index }>{topic.title}</p>}
+            <ul className="listado">
+            {topic.data.map((el, ind2) =>
+              <li key={ index + '_' + ind2 }>{el}</li>
+            )}
+            </ul>
+          </div>
         )}
-      </ul>
+
 
       <Link id="back-button" to="/">Menu</Link>
 
