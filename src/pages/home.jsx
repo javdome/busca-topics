@@ -9,7 +9,7 @@ const Home = ()=> {
 
   return (
     <div className="menu">
-        <h1>Buscador Iceri22</h1>
+        <h1>Buscador Inted23</h1>
         {/* <Link to="/">Home</Link> */}
         <Link to="/disciplines">Disciplines</Link>
         <Link to="/topics">Topics</Link>

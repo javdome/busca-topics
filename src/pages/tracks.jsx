@@ -9,7 +9,16 @@ const tracksPage = ()=> {
   function inputHandler (e) {
     setInputText(e.target.value)
     let lowerCase = e.target.value.toLowerCase()
-    setFilterData (tracks.filter(el => el.toLowerCase().includes(lowerCase)))
+
+
+    const newArray = tracks.map( function (track) { 
+      return {
+         title: track.title, 
+         data: track.data.filter(el => el.toLowerCase().includes(lowerCase))
+       }
+     })
+ 
+     setFilterData (newArray)
   }
 
   return (
@@ -22,11 +31,17 @@ const tracksPage = ()=> {
         value={ inputText }
         onChange = {inputHandler}/>
 
-      <ul className="listado">
-        {filterData.map((data, index) =>
-          <li key={ index }>{data}</li>
+
+        {filterData.map((track, index) =>
+          <div className='bloque'>
+            {track.data && <p key={ index }>{track.title}</p>}
+            <ul className="">
+            {track.data.map((el, ind2) =>
+              <li key={ index + '_' + ind2 }>{el}</li>
+            )}
+            </ul>
+          </div>
         )}
-      </ul>
 
       <Link id="back-button" to="/">Menu</Link>  
       

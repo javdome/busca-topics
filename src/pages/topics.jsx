@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-// import { topics } from '../assets/data'
-import { topics } from '../../ARCHIVOS/INTED/Topics_Disciplines_Inted'
+import { topics } from '../assets/data'
 
 const topicsPage = ()=> {
   const [inputText, setInputText] = useState("")
