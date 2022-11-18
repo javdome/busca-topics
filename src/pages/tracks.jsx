@@ -37,7 +37,7 @@ const tracksPage = ()=> {
             {track.data && <p key={ index }>{track.title}</p>}
             <ul className="">
             {track.data.map((el, ind2) =>
-              <li key={ index + '_' + ind2 }>{el}</li>
+              <li key={ index + '_' + ind2 }>{el.slice(0, 1) + el.slice(2)} </li>
             )}
             </ul>
           </div>

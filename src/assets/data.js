@@ -175,109 +175,109 @@ export const tracks = [
 	{
 		title: "A - Digital & Distance Learning",
 		data: [
-			"A1 - Distance Education in COVID-19 Times",
-            "A2 - MOOCs & Open Educational Resources",
-            "A3 - Blended & Mobile Learning",
-            "A4 - e-Learning Experiences",
-            "A5 - Learning Management Systems & Virtual Learning Environments",
-            "A6 - Students & Teachers Wellbeing in COVID-19 Times"
+			"A.1 - Distance Education in COVID-19 Times",
+            "A.2 - MOOCs & Open Educational Resources",
+            "A.3 - Blended & Mobile Learning",
+            "A.4 - e-Learning Experiences",
+            "A.5 - Learning Management Systems & Virtual Learning Environments",
+            "A.6 - Students & Teachers Wellbeing in COVID-19 Times"
 		]
 	},{
 		title: "B - Digital Transformation of Education",
 		data: [
-			"B1 - Data Science & AI in Education",
-            "B2 - Learning Analytics",
-            "B3 - Digital Technologies and Resources for Learning under Lockdown",
-            "B4 - 21st Century Skills",
-            "B5 - Educational Programming & Robotics",
-            "B6 - Digital Transformation"
+			"B.1 - Data Science & AI in Education",
+            "B.2 - Learning Analytics",
+            "B.3 - Digital Technologies and Resources for Learning under Lockdown",
+            "B.4 - 21st Century Skills",
+            "B.5 - Educational Programming & Robotics",
+            "B.6 - Digital Transformation"
 		]
 	},{
 		title: "C - Innovative Educational Technologies",
 		data: [
-			"C1 - Virtual & Augmented Reality",
-            "C2 - Videos and Social Media in Education",
-            "C3 - Technology Enhanced Learning",
-            "C4 - Chatbots & Robots",
-            "C5 - Digitalization and Challenges of Libraries"
+			"C.1 - Virtual & Augmented Reality",
+            "C.2 - Videos and Social Media in Education",
+            "C.3 - Technology Enhanced Learning",
+            "C.4 - Chatbots & Robots",
+            "C.5 - Digitalization and Challenges of Libraries"
 		]
 	},{
 		title: "D - Inclusion & Multiculturality",
 		data: [
-			"D1 - Special Educational Needs",
-            "D2 - Inclusive Education",
-            "D3 - Multicultural Education",
-            "D4 - Diversity Issues"
+			"D.1 - Special Educational Needs",
+            "D.2 - Inclusive Education",
+            "D.3 - Multicultural Education",
+            "D.4 - Diversity Issues"
 		]
 	},{
 		title: "E - Active & Student-Centered Learning",
 		data: [
-			"E1 - Gamification & Game-based Learning",
-            "E2 - Problem & Project-Based Learning",
-            "E3 - Pedagogical Innovations",
-            "E4 - Soft Skills Development"
+			"E.1 - Gamification & Game-based Learning",
+            "E.2 - Problem & Project-Based Learning",
+            "E.3 - Pedagogical Innovations",
+            "E.4 - Soft Skills Development"
 		]
 	},{
 		title: "F - Assessment, Mentoring & Student Support",
 		data: [
-			"F1 - Assessment & Evaluation",
-            "F2 - Rethinking Assessment in COVID-19 Times",
-            "F3 - Mentoring & Tutoring",
-            "F4 - Student Support & Motivation"
+			"F.1 - Assessment & Evaluation",
+            "F.2 - Rethinking Assessment in COVID-19 Times",
+            "F.3 - Mentoring & Tutoring",
+            "F.4 - Student Support & Motivation"
 		]
 	},{
 		title: "G - Educational Stages & Life-Long Learning",
 		data: [
-			"G1 - From Pre-school to Secondary Education",
-            "G2 - Vocational Training",
-            "G3 - Higher Education & Labour Market Transition",
-            "G4 - Transition to the Labor Market",
-            "G5 - Developing Entrepreneurship in Education",
-            "G6 - Life-long & Workplace Learning"
+			"G.1 - From Pre-school to Secondary Education",
+            "G.2 - Vocational Training",
+            "G.3 - Higher Education & Labour Market Transition",
+            "G.4 - Transition to the Labor Market",
+            "G.5 - Developing Entrepreneurship in Education",
+            "G.6 - Life-long & Workplace Learning"
 		]
 	},{
 		title: "H - Quality & Impact of Education",
 		data: [
-			"H1 - Quality in Education",
-            "H2 - CV Design and Post-pandemic Scenarios",
-            "H3 - Sustainability & Environmental Awareness",
-            "H4 - Social Impact of Education",
-            "H5 - University-Industry Collaboration",
-            "H6 - Globalisation & Internationalization"
+			"H.1 - Quality in Education",
+            "H.2 - CV Design and Post-pandemic Scenarios",
+            "H.3 - Sustainability & Environmental Awareness",
+            "H.4 - Social Impact of Education",
+            "H.5 - University-Industry Collaboration",
+            "H.6 - Globalisation & Internationalization"
 		]
 	},{
 		title: "I - Teacher Training & Ed. Management",
 		data: [
-			"I1 - ICT & Digital Skills",
-            "I2 - Teacher Training and Support",
-            "I3 - Professional Development of Teachers",
-            "I4 - Educational Management"
+			"I.1 - ICT & Digital Skills",
+            "I.2 - Teacher Training and Support",
+            "I.3 - Professional Development of Teachers",
+            "I.4 - Educational Management"
 		]
 	},{
 		title: "J - STEM Education",
 		data: [
-			"J1 - Mathematics & Statistics",
-            "J2 - Engineering Education",
-            "J3 - STEM Experiences",
-            "J4 - Computer Science"
+			"J.1 - Mathematics & Statistics",
+            "J.2 - Engineering Education",
+            "J.3 - STEM Experiences",
+            "J.4 - Computer Science"
 		]
 	},{
 		title: "K - Discipline-Oriented Sessions",
 		data: [
-			"K1 - Architecture & Civil Engineering",
-            "K2 - Health Sciences Education",
-            "K3 - Business & Tourism Education",
-            "K4 - Music Education",
-            "K5 - Military Education and Training",
-            "K6 - Documentary & Archival Research"
+			"K.1 - Architecture & Civil Engineering",
+            "K.2 - Health Sciences Education",
+            "K.3 - Business & Tourism Education",
+            "K.4 - Music Education",
+            "K.5 - Military Education and Training",
+            "K.6 - Documentary & Archival Research"
 		]
 	},{
 		title: "L - Language Learning and Teaching",
 		data: [
-			"L1 - Foreign Languages",
-            "L2 - New Technologies in Language Learning",
-            "L3 - Language Learning & Translation Studies",
-            "L4 - Intercultural & Sociocultural Competences"
+			"L.1 - Foreign Languages",
+            "L.2 - New Technologies in Language Learning",
+            "L.3 - Language Learning & Translation Studies",
+            "L.4 - Intercultural & Sociocultural Competences"
 		]
 	}
 ]
