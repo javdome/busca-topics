@@ -20,7 +20,8 @@ const disciplinesPage = ()=> {
         type="text"
         placeholder="Texto a buscar..."
         value={ inputText }
-        onChange = {inputHandler}/>
+        onChange = {inputHandler}
+        autoFocus/>
 
       <ul className="listado">
         {filterData.map((data, index) =>

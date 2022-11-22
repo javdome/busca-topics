@@ -29,7 +29,8 @@ const tracksPage = ()=> {
         type="text"
         placeholder="Texto a buscar..."
         value={ inputText }
-        onChange = {inputHandler}/>
+        onChange = {inputHandler}
+        autoFocus/>
 
 
         {filterData.map((track, index) =>
