@@ -66,11 +66,31 @@ li {
   background-color: lightgrey;
 }
 
-#back-button {
-  background-color: whitesmoke;
+#menu-responsive {
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+
+#menu-responsive span {
+  cursor: pointer;
+  background-color: whitesmoke;
+  height: 2rem;
+  width: 2rem;
+  margin: 15px auto;
+  padding: 0.2rem;
+  border: solid 1px lightgray;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: blue;
+}
+
+#back-button {
+  background-color: whitesmoke;
   height: 100px;
   width: 100px;
   border: solid 1px lightgray;

@@ -29,7 +29,9 @@ const disciplinesPage = ()=> {
         )}
       </ul>
 
-      <Link id="back-button" to="/">Menu</Link>
+      <div id='menu-responsive'>
+        <Link id="back-button" to="/">Menu</Link>
+      </div>
 
     </div>
   )
