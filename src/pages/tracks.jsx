@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { tracks } from '../assets/data'
 
 const tracksPage = ({filterAll, setFilterAll})=> {
   const [inputText, setInputText] = useState("")
   const [filterData, setFilterData] = useState (tracks)
 
-  function inputHandler (e) {
-    setInputText(e.target.value)
-    let lowerCase = e.target.value.toLowerCase()
+  const inputElement = useRef();
 
+  function inputHandler (e) {
+    // setInputText(e.target.value)
+    // let lowerCase = e.target.value.toLowerCase()
+    setInputText(inputElement.current.value)
+    let lowerCase = inputElement.current.value.toLowerCase()
 
     const newArray = tracks.map( function (track) { 
       return {
@@ -21,6 +24,11 @@ const tracksPage = ({filterAll, setFilterAll})=> {
      setFilterData (newArray)
   }
 
+  function cleanInput () {
+    inputElement.current.value = ""
+    inputHandler()
+  }
+
   return (
     <div className="container">
       <h1>Tracks</h1>
@@ -30,7 +38,14 @@ const tracksPage = ({filterAll, setFilterAll})=> {
         placeholder="Texto a buscar..."
         value={ inputText }
         onChange = {inputHandler}
-        autoFocus/>
+        onBlur={(e) => e.target.focus()}
+        autoFocus
+        ref={inputElement}
+      />
+
+      <button id='boton-borra' onClick={cleanInput}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.75rem" height="1.75rem" fill="#f90606" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="216" y1="56" x2="40" y2="56" fill="none" stroke="#f90606" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"></line><line x1="104" y1="104" x2="104" y2="168" fill="none" stroke="#f90606" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"></line><line x1="152" y1="104" x2="152" y2="168" fill="none" stroke="#f90606" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"></line><path d="M200,56V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V56" fill="none" stroke="#f90606" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"></path><path d="M168,56V40a16,16,0,0,0-16-16H104A16,16,0,0,0,88,40V56" fill="none" stroke="#f90606" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"></path></svg>
+      </button>
 
 
         {filterData.map((track, index) =>
