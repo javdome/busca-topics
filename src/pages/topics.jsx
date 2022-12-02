@@ -25,6 +25,7 @@ const topicsPage = ({filterAll, setFilterAll})=> {
 
   function cleanInput () {
     inputElement.current.value = ""
+    inputElement.current.focus()
     inputHandler()
   }
 

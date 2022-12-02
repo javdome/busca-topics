@@ -16,6 +16,7 @@ const disciplinesPage = ()=> {
 
   function cleanInput () {
     inputElement.current.value = ""
+    inputElement.current.focus()
     inputHandler()
   }
 
