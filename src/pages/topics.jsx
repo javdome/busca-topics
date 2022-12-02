@@ -37,7 +37,7 @@ const topicsPage = ({filterAll, setFilterAll})=> {
         placeholder="Texto a buscar..."
         value={ inputText }
         onChange = {inputHandler}
-        onBlur={(e) => e.target.focus()}
+        // onBlur={(e) => e.target.focus()}
         autoFocus
         ref={inputElement}
       />

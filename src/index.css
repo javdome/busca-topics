@@ -39,7 +39,7 @@
 
 .container input {
   width: 80%;
-  margin: 20px 10px;
+  margin: 20px 0px;
   padding: 10px;
   font-size: 16px;
   /* display: block; */
@@ -120,6 +120,9 @@ li {
   #back-button {
     height: 75px;
     width: 75px;
+  }
+  .container input {
+    width: 70%;
   }
 }
 
