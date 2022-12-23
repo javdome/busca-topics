@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useState, useRef } from 'react'
 import { disciplines } from '../assets/data'
 
@@ -45,7 +45,12 @@ const disciplinesPage = ()=> {
       </ul>
 
       <div id='menu-responsive'>
-        <Link id="back-button" to="/">Menu</Link>
+        <div className="sub-menu">
+          <NavLink className={({ isActive }) => isActive ? 'active' : undefined } to="/topics">Topics</NavLink>
+          <NavLink className={({ isActive }) => isActive ? 'active' : undefined } to="/tracks">Tracks</NavLink>
+          <NavLink className={({ isActive }) => isActive ? 'active' : undefined } to="/disciplines">Disciplines</NavLink>
+        </div>
+        <NavLink id="back-button" to="/">Menu</NavLink>
       </div>
 
     </div>

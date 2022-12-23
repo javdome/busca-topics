@@ -11,9 +11,9 @@ const Home = ({filterAll, setFilterAll})=> {
     <div className="menu">
         <h1>Buscador Inted23</h1>
         {/* <Link to="/">Home</Link> */}
-        <Link to="/disciplines">Disciplines</Link>
         <Link to="/topics">Topics</Link>
         <Link to="/tracks">Tracks</Link>
+        <Link to="/disciplines">Disciplines</Link>
         {/* <Link to="/products">Products</Link> */}
 
         <button onClick={toggleDarkMode}>Dark/Light mode</button>
