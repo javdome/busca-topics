@@ -251,7 +251,7 @@ export const tracks = [
             'G.2 - Vocational Training',
             'G.3 - Transition to the Job Market',
             'G.4 - Developing Entrepreneurship in Education',
-            'G.5 - DLife-Long & Workplace Learning',
+            'G.5 - Life-Long & Workplace Learning',
             'G.6 - Libraries and Museums as Learning Spaces',
         ],
     },
@@ -282,7 +282,7 @@ export const tracks = [
             'J.1 - Mathematics & Statistics',
             'J.2 - Engineering Education',
             'J.3 - STEM Experiences',
-            'J.4 - CComputer Science Education',
+            'J.4 - Computer Science Education',
         ],
     },
     {

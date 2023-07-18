@@ -1,11 +1,13 @@
 import { useState, useRef } from 'react'
-import { topics } from '../assets/data'
+import { topics, tracks } from '../assets/data'
 import ResponsiveMenu from '../components/ResponsiveMenu'
 import TopicLists from '../components/TopicLists'
+import TrackLists from '../components/TrackLists'
 
-const topicsPage = ({ filterAll, setFilterAll }) => {
+const topicsTracksPage = ({ filterAll, setFilterAll }) => {
     const [inputText, setInputText] = useState('')
     const [filterTopics, setFilterTopics] = useState(topics)
+    const [filterTracks, setFilterTracks] = useState(tracks)
 
     const inputElement = useRef()
 
@@ -22,6 +24,15 @@ const topicsPage = ({ filterAll, setFilterAll }) => {
         })
 
         setFilterTopics(newArrayTopics)
+
+        const newArrayTracks = tracks.map(function (track) {
+            return {
+                title: track.title,
+                data: track.data.filter((el) => el.toLowerCase().includes(lowerCase)),
+            }
+        })
+
+        setFilterTracks(newArrayTracks)
     }
 
     function cleanInput() {
@@ -32,7 +43,7 @@ const topicsPage = ({ filterAll, setFilterAll }) => {
 
     return (
         <div className="container">
-            <h1>Topics</h1>
+            <h1>Topics & Tracks</h1>
 
             <input
                 type="text"
@@ -104,12 +115,15 @@ const topicsPage = ({ filterAll, setFilterAll }) => {
                     ></path>
                 </svg>
             </button>
-
+            <h2>Topics</h2>
             <TopicLists filterTopics={filterTopics} filterAll={filterAll} />
+            <hr />
+            <h2 style={{ marginTop: '25px' }}>Tracks</h2>
+            <TrackLists filterTracks={filterTracks} filterAll={filterAll} />
 
             <ResponsiveMenu filterAll={filterAll} setFilterAll={setFilterAll} />
         </div>
     )
 }
 
-export default topicsPage
+export default topicsTracksPage

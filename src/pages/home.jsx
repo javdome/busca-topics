@@ -13,6 +13,7 @@ const Home = ({ filterAll, setFilterAll }) => {
             <Link to="/topics">Topics</Link>
             <Link to="/tracks">Tracks</Link>
             <Link to="/disciplines">Disciplines</Link>
+            <Link to="/topics-tracks">Topics & Tracks</Link>
             {/* <Link to="/products">Products</Link> */}
 
             <button onClick={toggleDarkMode}>Dark/Light mode</button>
