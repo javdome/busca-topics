@@ -4,6 +4,11 @@ const Home = ({ filterAll, setFilterAll }) => {
     const toggleDarkMode = () => {
         let element = document.body
         element.classList.toggle('dark-mode')
+        if (element.classList.contains('dark-mode')) {
+            localStorage.setItem('darkModeValue', JSON.stringify(true));
+        } else {
+            localStorage.setItem('darkModeValue', JSON.stringify(false));
+        };
     }
 
     return (
