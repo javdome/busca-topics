@@ -185,124 +185,128 @@ export const topics = [
 
 export const tracks = [
     {
-        title: 'A - Digital Transformation of Education',
-        data: [
-            'A.1 - Data Science & AI in Education',
-            'A.2 - Learning Analytics & Educational Data Mining',
-            'A.3 - Digital Technologies and Resources for Learning under Lockdown',
-            'A.4 - Digital Transformation',
-            'A.5 - 21st Century Skills',
-            'A.6 - Educational Programming & Robotics',
-        ],
+      title: 'A - Digital Transformation of Education',
+      data: [
+        'A.1 - Digital Transformation',
+        'A.2 - Data Science & AI in Education',
+        'A.3 - Learning Analytics & Educational Data Mining',
+        'A.4 - Digital Technologies and Resources for Distance Learning',
+        'A.5 - Educational Programming & Robotics',
+        'A.6 - 21st Century Skills'
+      ]
     },
     {
-        title: 'B - Digital & Distance Learning',
-        data: [
-            'B.1 - Distance Education in COVID-19 Times',
-            'B.2 - MOOCs & Open Educational Resources',
-            'B.3 - Blended & Mobile Learning',
-            'B.4 - e-Learning Experiences',
-            'B.5 - Learning Management Systems & Virtual Learning Environments',
-            'B.6 - Post-Pandemic Scenarios in Education',
-        ],
+      title: 'B - Digital & Distance Learning',
+      data: [
+        'B.1 - Distance Education in Times of Crisis',
+        'B.2 - e-Learning Experiences',
+        'B.3 - Blended & Mobile Learning',
+        'B.4 - Hybrid and HyFlex Teaching',
+        'B.5 - MOOCs & Open Educational Resources',
+        'B.6 - Learning Management Systems & Virtual Learning Environments'
+      ]
     },
     {
-        title: 'C - Innovative Educational Technologies',
-        data: [
-            'C.1 - AI, Chatbots & Robots',
-            'C.2 - Virtual & Augmented Reality',
-            'C.3 - Social Media in Education',
-            'C.4 - Technology Enhanced Learning',
-        ],
+      title: 'C - Innovative Educational Technologies',
+      data: [
+        'C.1 - Technology Enhanced Learning',
+        'C.2 - Videos and Social Media in Education',
+        'C.3 - Virtual & Augmented Reality',
+        'C.4 - Generative AI in Education',
+        'C.5 - Chatbots & Robots'
+      ]
     },
     {
-        title: 'D - Teacher Training & Ed. Management',
-        data: [
-            'D.1 - ICT & Digital Skills',
-            'D.2 - Professional Development of Teachers',
-            'D.3 - Educational Management',
-        ],
-    },
-
-    {
-        title: 'E - Active & Student-Centered Learning',
-        data: [
-            'E.1 - Gamification & Game-based Learning',
-            'E.2 - Active & Experiential Learning',
-            'E.3 - Problem & Project-Based Learning',
-            'E.4 - Developing Soft and Transversal Skills',
-            'E.5 - Pedagogical Innovations',
-        ],
+      title: 'D - Active & Student-Centered Learning',
+      data: [
+        'D.1 - Pedagogical Innovations',
+        'D.2 - Gamification & Game-based Learning',
+        'D.3 - Active & Experiential Learning',
+        'D.4 - Problem & Project-Based Learning',
+        'D.5 - Developing Soft and Transversal Skills'
+      ]
     },
     {
-        title: 'F - Assessment, Mentoring & Student Support',
-        data: [
-            'F.1 - Assessment & Evaluation',
-            'F.2 - Rethinking Assessment in COVID-19 Times',
-            'F.3 - Mentoring & Tutoring',
-            'F.4 - Student Support & Motivation',
-            'F.5 - Student Engagement & Wellbeing in COVID-19 Times',
-        ],
+      title: 'E - Assessment, Mentoring & Student Support',
+      data: [
+        'E.1 - Assessment & Evaluation',
+        'E.2 - Rethinking Assessment in COVID-19 Times',
+        'E.3 - Mentoring & Tutoring',
+        'E.4 - Student Support & Motivation',
+        'E.5 - Student Wellbeing'
+      ]
     },
     {
-        title: 'G - Educational Stages & Life-Long Learning',
-        data: [
-            'G.1 - From Pre-school to Secondary Education',
-            'G.2 - Vocational Training',
-            'G.3 - Transition to the Job Market',
-            'G.4 - Developing Entrepreneurship in Education',
-            'G.5 - Life-Long & Workplace Learning',
-            'G.6 - Libraries and Museums as Learning Spaces',
-        ],
+      title: 'F - Multiculturality & Inclusion',
+      data: [
+        'F.1 - Multicultural Education',
+        'F.2 - Diversity Issues',
+        'F.3 - Inclusive Education',
+        'F.4 - Special Educational Needs'
+      ]
     },
     {
-        title: 'H - Quality & Impact of Education',
-        data: [
-            'H.1 - Quality in Education',
-            'H.2 - Experiences and Challenges in Curriculum Design',
-            'H.3 - Sustainability & Environmental Awareness',
-            'H.4 - Social Impact of Education',
-            'H.5 - University-Industry Collaboration',
-            'H.6 - Education and Research',
-        ],
+      title: 'G - Teacher Training & Ed. Management',
+      data: [
+        'G.1 - Teacher Training and Support',
+        'G.2 - Professional Development of Teachers',
+        'G.3 - Educational Management',
+        'G.4 - ICT & Digital Skills'
+      ]
     },
     {
-        title: 'I - Multiculturality & Inclusion',
-        data: [
-            'I.1 - Multicultural Education',
-            'I.2 - Diversity Issues',
-            'I.3 - Special Educational Needs',
-            'I.4 - Inclusive Education',
-        ],
-    },
-
-    {
-        title: 'J - STEM Education',
-        data: [
-            'J.1 - Mathematics & Statistics',
-            'J.2 - Engineering Education',
-            'J.3 - STEM Experiences',
-            'J.4 - Computer Science Education',
-        ],
+      title: 'H - Educational Stages & Life-Long Learning',
+      data: [
+        'H.1 - From Pre-school to Secondary Education',
+        'H.2 - Vocational Training',
+        'H.3 - Higher Education & Labour Market Transition',
+        'H.4 - Developing Entrepreneurship in Education',
+        'H.5 - Non-Formal and Informal Learning',
+        'H.6 - Life-long & Workplace Learning'
+      ]
     },
     {
-        title: 'K - Language Learning and Teaching',
-        data: [
-            'K.1 - Foreign Languages',
-            'K.2 - New Technologies in Language Learning',
-            'K.3 - Language Learning & Translation Studies',
-        ],
+      title: 'I - Quality & Impact of Education',
+      data: [
+        'I.1 - Quality in Education',
+        'I.2 - Experiences and Challenges in Curriculum Design',
+        'I.3 - Mobility & International Projects',
+        'I.4 - Sustainability & Social Impact of Education',
+        'I.5 - University-Industry Collaboration',
+        'I.6 - Links between Education and Research'
+      ]
     },
     {
-        title: 'L - Discipline-Oriented Sessions',
-        data: [
-            'L.1 - Architecture & Interior Design',
-            'L.2 - Health Sciences Education',
-            'L.3 - Business and Marketing Education',
-            'L.4 - Military Education',
-        ],
+      title: 'J - Discipline-Oriented Sessions',
+      data: [
+        'J.1 - Architecture & Interior Design Education',
+        'J.2 - Health Sciences Education',
+        'J.3 - Business & Tourism Education',
+        'J.4 - Music Education',
+        'J.5 - Military Education and Training',
+        'J.6 - Libraries and Museums as Learning Spaces'
+      ]
     },
+    {
+      title: 'K - STEM Education',
+      data: [
+        'K.1 - STEM Experiences',
+        'K.2 - Mathematics & Statistics',
+        'K.3 - Engineering Education',
+        'K.4 - Computer Science Education'
+      ]
+    },
+    {
+      title: 'L - Language Learning and Teaching',
+      data: [
+        'L.1 - Foreign Languages',
+        'L.2 - New Technologies in Language Learning',
+        'L.3 - Language Learning & Translation Studies',
+        'L.4 - Intercultural & Sociocultural Competences'
+      ]
+    }
 ]
+
 
 export const disciplines = [
     '1 - Accounting & Finance',

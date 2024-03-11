@@ -13,7 +13,7 @@ const Home = ({ filterAll, setFilterAll }) => {
 
     return (
         <div className="menu">
-            <h1>Buscador Inted 24</h1>
+            <h1>Buscador Edulearn 24</h1>
             {/* <Link to="/">Home</Link> */}
             <Link to="/topics">Topics</Link>
             <Link to="/tracks">Tracks</Link>

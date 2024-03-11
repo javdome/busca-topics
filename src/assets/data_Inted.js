@@ -1,121 +1,122 @@
-﻿// EDULEARN
+﻿// INTED
 
 export const topics = [
     {
-      title: '1 - Educational Trends and Experiences',
+      title: '1 - Global Issues in Education and Research',
       data: [
-        '1.1 - Education Practice Trends and Issues',
-        '1.2 - Enhancing learning and the undergraduate experience',
-        '1.3 - Early Childhood Education',
-        '1.4 - Primary and Secondary Education',
-        '1.5 - Undergraduate Education',
-        '1.6 - Post-graduate Education',
-        '1.7 - Vocational Training',
-        '1.8 - Life-long learning',
-        '1.9 - Educating Individuals with Disabilities',
-        '1.10 - STEM Education Experiences',
-        '1.11 - Language Learning Innovations',
-        '1.12 - New Experiences for Curriculum Design',
-        '1.13 - Instructional Design and Curriculum Priorities',
-        '1.14 - Accreditation and Quality in Education'
-      ]
+        '1.1 - Education, Research and Globalization',
+        '1.2 - Organizational, Legal and Financial Aspects',
+        '1.3 - Gender and Equality in Education',
+        '1.4 - Barriers to Learning (ethnicity, age, etc.)',
+        '1.5 - Digital Divide and Technological Exclusion',
+        '1.6 - Bullying Prevention and Awareness',
+        '1.7 - Impact of Crisis on Education',
+        '1.8 - Ethical Issues in Education',
+        '1.9 - Cultural Diversity and Multicultural Inclusion',
+        '1.10 - Service-Learning and Community Engagement',
+        '1.11 - Education for Sustainability',
+      ],
     },
     {
-      title: '2 - Pedagogical Methods and Innovations',
+      title: '2 - Educational Trends and Experiences',
       data: [
-        '2.1 - Pedagogical Innovations',
-        '2.2 - Flipped Learning',
-        '2.3 - Assessment of Student Learning',
-        '2.4 - Informal Learning',
-        '2.5 - Active and Experiential Learning',
-        '2.6 - Collaborative Problem and Project-based Learning',
-        '2.7 - Game-based Learning and Gamification',
-        '2.8 - Personalized Learning',
-        '2.9 - Tutoring and Coaching',
-        '2.10 - Neuroscience in Education',
-        '2.11 - Next Generation Classroom & Learning Space Design',
-        '2.12 - Creativity and Design Thinking',
-        '2.13 - Critical Thinking and Problem Solving',
-        '2.14 - 21st Century Skills'
-      ]
+        '2.1 - Enhancing learning and the undergraduate experience',
+        '2.2 - Student Support and Motivation',
+        '2.3 - Ensuring Students and Teachers Well-being',
+        '2.4 - Early Childhood Education',
+        '2.5 - Primary and Secondary Education',
+        '2.6 - Informal Learning',
+        '2.7 - Vocational Training',
+        '2.8 - Life-long learning',
+        '2.9 - Post-graduate Education',
+        '2.10 - Employability Issues and Trends',
+        '2.11 - Educating Individuals with Disabilities',
+        '2.12 - Inclusion and Lifespan Transition support',
+        '2.13 - Inclusive Learning and Assistive Technologies',
+      ],
     },
     {
-      title: '3 - Teacher Training and Educational Management',
+      title: '3 - New Challenges in Education and International Cooperation',
       data: [
-        '3.1 - Pre-service Teacher Experiences',
-        '3.2 - In-service Teacher Training',
-        '3.3 - Professional Development of Teachers',
-        '3.4 - Leadership and Educational Management',
-        '3.5 - ICT Skills Development'
-      ]
+        '3.1 - New challenges for the Higher Education Area',
+        '3.2 - Students and Teaching Staff Exchange Programmes',
+        '3.3 - Erasmus+ Programme Experiences',
+        '3.4 - International Projects',
+        '3.5 - New experiences for the International Cooperation',
+        '3.6 - Joint Education and Research Programmes',
+        '3.7 - University Networks',
+      ],
     },
     {
-      title: '4 - Research: New Trends and Experiences',
+      title: '4 - Pedagogical Methods and Innovations',
       data: [
-        '4.1 - Academic Research Projects',
-        '4.2 - Research on Technology in Education',
-        '4.3 - Links between Education and Research',
-        '4.4 - Research Methodologies',
-        '4.5 - Research Centres and Programmes'
-      ]
+        '4.1 - Pedagogical Innovations',
+        '4.2 - Assessment of Student Learning',
+        '4.3 - Tutoring and Mentoring',
+        '4.4 - Active and Experiential Learning',
+        '4.5 - Game-based Learning and Gamification',
+        '4.6 - Collaborative and Problem-based Learning',
+        '4.7 - Flipped Learning',
+        '4.8 - Creativity and Design Thinking',
+        '4.9 - Critical Thinking and Problem Solving',
+        '4.10 - 21st Century Skills',
+        '4.11 - Language Learning Innovations',
+        '4.12 - STEM Education Experiences',
+        '4.13 - Science popularization and public outreach activities',
+        '4.14 - Learning Space Design',
+        '4.15 - Next Generation Classroom',
+      ],
     },
     {
-      title: '5 - New Challenges in Education and International Cooperation',
+      title: '5 - Teacher Training and Educational Management',
       data: [
-        '5.1 - New challenges for the Higher Education Area',
-        '5.2 - Students and Teaching Staff Exchange Programmes',
-        '5.3 - Erasmus+ Programme Experiences',
-        '5.4 - International Projects',
-        '5.5 - New experiences of International Cooperation',
-        '5.6 - Joint Education and Research Programmes',
-        '5.7 - University Networks and Alliances'
-      ]
+        '5.1 - Pre-service Teacher Experiences',
+        '5.2 - In-service Teacher Training',
+        '5.3 - Professional Development of Teachers',
+        '5.4 - ICT Skills Development',
+        '5.5 - Leadership and Educational Management',
+      ],
     },
     {
-      title: '6 - Global Issues in Education and Research',
+      title: '6 - Research: New Trends and Experiences',
       data: [
-        '6.1 - Education, Research and Globalization',
-        '6.2 - Cultural Diversity and Multicultural Inclusion',
-        '6.3 - Bullying Prevention and Awareness',
-        '6.4 - Organizational, Legal and Financial Aspects',
-        '6.5 - Digital Divide and Technological Exclusion',
-        '6.6 - Gender and Equality in Education',
-        '6.7 - Barriers to Learning (ethnicity, age, etc.)',
-        '6.8 - Ethical Issues in Education',
-        '6.9 - Inclusion and Lifespan Transition Support',
-        '6.10 - Student Support and Motivation',
-        '6.11 - Service-Learning and Community Engagement',
-        '6.12 - Education for Sustainability'
-      ]
+        '6.1 - Academic Research Projects',
+        '6.2 - Research on Technology in Education',
+        '6.3 - Links between Education and Research',
+        '6.4 - Research Methodologies',
+        '6.5 - Research Centres and Programmes',
+      ],
     },
     {
-      title: '7 - University-Industry Cooperation',
+      title: '7 - Distance Learning in Times of Crisis',
       data: [
-        '7.1 - University/Industry Experiences',
-        '7.2 - Workplace Learning',
-        '7.3 - Work Employability',
-        '7.4 - Entrepreneurship Education',
-        '7.5 - University/Industry/Government partnership'
-      ]
+        '7.1 - Face-to-face vs Remote Learning',
+        '7.2 - Hybrid and HyFlex Teaching',
+        '7.3 - Digital Technologies and Resources for Learning',
+        '7.4 - Rethinking Assessment',
+        '7.5 - Teacher Training and Support',
+        '7.6 - Leadership and Management in Uncertain Times',
+        '7.7 - Instructional Design and Curriculum Priorities',
+        '7.8 - Strategies to Minimize the Educational Disruption',
+        '7.9 - Lessons Learned from the COVID-19 Pandemic',
+      ],
     },
     {
       title: '8 - Technology in Teaching and Learning',
       data: [
         '8.1 - e-Learning Experiences',
-        '8.2 - m-Learning: Mobile Technologies and Experiences',
+        '8.2 - m-Learning: Mobile Applications and Technologies',
         '8.3 - Blended Learning and Flipped Classroom',
         '8.4 - Advanced Classroom Applications and Technologies',
         '8.5 - Online/Virtual Laboratories',
         '8.6 - Learning Management Systems (LMS)',
         '8.7 - Virtual Learning Environments (VLE)',
-        '8.8 - Personal Learning Environments (PLEs)',
+        '8.8 - e-Tutoring',
         '8.9 - Online Assessment',
-        '8.10 - e-Tutoring',
-        '8.11 - Intelligent Tutoring Systems (ITS)',
-        '8.12 - Technology-Enhanced Learning',
-        '8.13 - ICT and Digital Skills',
-        '8.14 - Inclusive Learning and Assistive Technologies'
-      ]
+        '8.10 - Technology-Enhanced Learning',
+        '8.11 - Distance and Online Education',
+        '8.12 - ICT and Digital Skills',
+      ],
     },
     {
       title: '9 - Emerging Technologies in Education',
@@ -125,44 +126,58 @@ export const topics = [
         '9.3 - Web 3.0',
         '9.4 - Social Media and Social Networks',
         '9.5 - Educational/Serious Games and Software',
-        '9.6 - Virtual Reality and 3D Applications',
-        '9.7 - Augmented Reality',
-        '9.8 - Simulation and Immersive Technologies',
-        '9.9 - Videos for Learning & Multimedia-based Education',
-        '9.10 - Coding and Educational Robotics',
-        '9.11 - Learning Analytics'
-      ]
+        '9.6 - Virtual and Augmented Reality',
+        '9.7 - Simulation and Immersive Technologies',
+        '9.8 - Videos for Learning',
+        '9.9 - Educational Programming & Robotics',
+        '9.10 - Learning Analytics',
+      ],
     },
     {
-      title: '10 - Distance Learning in Times of Crisis',
+      title: '10 - Accreditation and Quality in Education',
       data: [
-        '10.1 - Face-to-face vs Remote Learning',
-        '10.2 - Digital Technologies and Resources for Learning',
-        '10.3 - Rethinking Assessment',
-        '10.4 - Teacher Training and Support',
-        '10.5 - Leadership and Management in Uncertain Times',
-        '10.6 - Hybrid and HyFlex Teaching',
-        '10.7 - Strategies to Minimize Educational Disruption',
-        '10.8 - Ensuring Students and Teachers Well-being',
-        '10.9 - Lessons Learned from the COVID-19 Pandemic'
-      ]
+        '10.1 - Academic Experiences and Best Practice Contributions',
+        '10.2 - Evaluation and Assessment',
+        '10.3 - Quality Processes at National and International Level',
+        '10.4 - Student Selection Criteria',
+        '10.5 - Plagiarism in Education and Detection Strategies',
+      ],
     },
     {
-      title: '11 - E-Content Development and Open Educational Resources',
+      title: '11 - Curriculum Design',
       data: [
-        '11.1 - Digital Libraries and Repositories',
-        '11.2 - Open Universities and Distance Education',
-        '11.3 - Massive Open Online Courses (MOOC)',
-        '11.4 - Open Educational Resources',
-        '11.5 - User-Generated Content',
-        '11.6 - Plagiarism and Intellectual Property Rights',
-        '11.7 - Knowledge Management'
-      ]
-    }
+        '11.1 - New Experiences for Curriculum Design',
+        '11.2 - Strategies, Principles and Challenges',
+        '11.3 - Skill Needs of Labour Market',
+        '11.4 - Generic Skills and their Development',
+        '11.5 - Personal Learning Environments',
+        '11.6 - Multidisciplinary Studies',
+      ],
+    },
+    {
+      title: '12 - University-Industry Cooperation',
+      data: [
+        '12.1 - University/Industry Experiences',
+        '12.2 - Workplace Learning',
+        '12.3 - Work Employability',
+        '12.4 - Entrepreneurship Education',
+        '12.5 - University/Industry/Government partnership',
+      ],
+    },
+    {
+      title: '13 - E-content Development and Open Educational Resources',
+      data: [
+        '13.1 - Knowledge Management',
+        '13.2 - Digital Libraries and Repositories',
+        '13.3 - Massive Open Online Courses (MOOC)',
+        '13.4 - Open Educational Resources',
+        '13.5 - User-Generated Content',
+        '13.6 - Plagiarism and Intellectual Property Rights',
+      ],
+    },
+  ]
 
-]
-
-export const tracks = [
+  export const tracks = [
     {
       title: 'A - Digital Transformation of Education',
       data: [
@@ -285,6 +300,7 @@ export const tracks = [
       ]
     }
 ]
+
 
 export const disciplines = [
     '1 - Accounting & Finance',
